@@ -1,0 +1,9 @@
+437542a8521f7188bbc72d78a07da0d8
+b21f4b94cef261d782827915f0435849
+../src/python/_otf2/GlobalDefReaderCallbacks.py
+_otf2.GlobalDefReaderCallbacks.tmpl.py
+../share/otf2/otf2.types
+../share/otf2/otf2.enums
+../share/otf2/otf2.defs
+../share/otf2/otf2.events
+../share/otf2/otf2.snaps

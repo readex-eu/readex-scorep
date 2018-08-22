@@ -1,0 +1,5 @@
+void baz()
+{
+  SCOREP_USER_FUNC_BEGIN()
+  SCOREP_USER_FUNC_END()
+}

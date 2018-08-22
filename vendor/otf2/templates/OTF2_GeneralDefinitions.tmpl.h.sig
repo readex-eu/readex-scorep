@@ -1,0 +1,10 @@
+faf0ebf747fc2e7f5ed61e100e48847c
+0df8bc580012f09fd9cccbee3b80a248
+../include/otf2/OTF2_GeneralDefinitions.h
+OTF2_GeneralDefinitions.tmpl.h
+../share/otf2/otf2.types
+../share/otf2/otf2.enums
+../share/otf2/otf2.defs
+../share/otf2/otf2.events
+../share/otf2/otf2.snaps
+../build-config/VERSION

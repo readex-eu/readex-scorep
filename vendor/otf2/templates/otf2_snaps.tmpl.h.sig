@@ -1,0 +1,9 @@
+62986ed67d99371714f4818a13e198cf
+9d00ec98056b54981a32351448ae1b8e
+../src/otf2_snaps.h
+otf2_snaps.tmpl.h
+../share/otf2/otf2.types
+../share/otf2/otf2.enums
+../share/otf2/otf2.defs
+../share/otf2/otf2.events
+../share/otf2/otf2.snaps

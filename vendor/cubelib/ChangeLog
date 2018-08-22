@@ -1,0 +1,36 @@
+Name: Cube C++ Library
+Version: 4.4
+Notes:
+    - One can mark derived metrics as "non convertible" to prevend convertion into data and as "non cacheable" if their value is runtime dependent.
+    - Build system improvements.
+    - Documentation infrastructure refactoring.
+    - Improvements in Cube Tools:
+      -- cube_stat only shows all call-tree root nodes;
+      -- cube_stat supports 'unlimited' as argument for '-t' option;
+      -- improved memory footprint of cube_dump and cube_remap2;
+      -- cube_calltree annotated its output properly;
+      -- split cube_remap2 into a library and an application to allow its usage in another tools;
+      -- cube_remap2 copies ghost metrics into target cube as well.
+    - CUBELIB_DEBUG and CUBEPL_VERBOSE_METRICS set CubePL engine into verbose mode..
+    - Cube tools do not append wrongly .cubex extension.
+    - Fixes in CubePL engine:.
+      -- support for metric::call::<uniq_name>;
+      -- fixed seg fault if the metric "rowwise=false";
+      -- fixed seg fault while metric::set of unknown metric;
+      -- reference to a metric in CubePL Init section doesn't crash anymore;
+      -- added an automatic variable to refer to global sysres id;
+      -- "?" within a regex is not ignored anymore.
+    - Remapper doesn't unhide "omp" metrics, if no OpenMp region detected, but -s option.
+    is provided.
+    - Fixed a seg fault if Cube tries to read a non-Cube file, like .txt.
+    - Provide examples of typical cube files.
+    - Various bug fixes in library.
+    - Using ScoreP for Library instrumentation for the automatic performance benchmarking.
+    - Extended list of the environment (CUBE_TMPDIR, CUBE_TEMP, CUBE_TMP) variables for storing the temporary data.
+    - Improved performance of the multiplication in CubePL engine (short evaluation).
+    - Bug fixes in CubePL engine related to the assignment "=".
+    - Fixed support of "if - elseif (x) - else " construction in CubePL.
+    - Added support for comments in CubePL.
+    - Fixed bug in "lowercase" and "uppercase" handling in CubePL.
+    - Use rowwise calls in cube_cmp, cube_diff and other tools.
+    - Various bug fixes in library.

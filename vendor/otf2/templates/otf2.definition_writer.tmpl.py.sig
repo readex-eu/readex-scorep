@@ -1,0 +1,9 @@
+8b6baf17b758ac011b7c27230cfa28c7
+d02e85f36e734202f470a749d61263cb
+../src/python/otf2/definition_writer.py
+otf2.definition_writer.tmpl.py
+../share/otf2/otf2.types
+../share/otf2/otf2.enums
+../share/otf2/otf2.defs
+../share/otf2/otf2.events
+../share/otf2/otf2.snaps
